@@ -6,7 +6,7 @@ Developed to support the Australian Climate Service delivery to Treasury.
 
 ## Contents
 
-- **compute_labour_productivity_loss.py**
+## - compute_labour_productivity_loss.py
 
 Computes gridded hourly labour productivity loss from hourly WBGT for three
 physical intensity classes (low, medium, high).
