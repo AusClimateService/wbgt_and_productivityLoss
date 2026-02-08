@@ -1,0 +1,16 @@
+#!/bin/bash
+#PBS -l ncpus=48
+#PBS -l mem=2990GB
+#PBS -l jobfs=1400GB
+#PBS -q megamem
+#PBS -P xv83
+#PBS -l walltime=48:00:00
+#PBS -l storage=gdata/ia39+scratch/eg3+gdata/eg3+gdata/xv83+gdata/xp65+scratch/xv83
+#PBS -l wd
+#PBS -j oe
+#PBS -o logs
+
+module use /g/data/xp65/public/modules
+module load conda/analysis3-25.06
+
+python compute_labour_productivity_loss.py
