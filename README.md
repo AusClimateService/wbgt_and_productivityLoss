@@ -18,3 +18,11 @@ Outputs are provided as **fractional loss (0..1)**, where:
 This code is **fit-for-purpose** and project-specific, intended to meet defined
 analytical requirements for Treasury delivery. It is not designed to function as
 a general-purpose or production-grade software library.
+
+### - job-run_compute_labour_productivity_loss.pbs
+
+Execute `compute_labour_productivity_loss.py` on NCI's megamem node.
+
+### - evaluate_labour_productivity_loss_script1.ipynb
+
+Evaluate productivity loss data generated using `compute_labour_productivity_loss.py` (NCI ARE: megamembw node).
