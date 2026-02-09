@@ -113,15 +113,15 @@ def process_file(input_nc, output_nc):
 
     # attributes
     out_ds["productivity_loss_low"].attrs.update(
-        long_name="Labour productivity loss (low physical intensity)",
+        long_name="Labour productivity change (low physical intensity)",
         units="1",
     )
     out_ds["productivity_loss_medium"].attrs.update(
-        long_name="Labour productivity loss (medium physical intensity)",
+        long_name="Labour productivity change (medium physical intensity)",
         units="1",
     )
     out_ds["productivity_loss_high"].attrs.update(
-        long_name="Labour productivity loss (high physical intensity)",
+        long_name="Labour productivity change (high physical intensity)",
         units="1",
     )
 
